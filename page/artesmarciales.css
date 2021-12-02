@@ -1,0 +1,229 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    
+  }
+  li {
+    float: left;
+    color: white;
+  }
+  li a {
+    color: white;
+    background-color:black;
+    display: block;
+    padding: 8px;
+  }
+  li a:hover{
+    color: black;
+    background-color: white;
+  }
+ h1{
+   text-align: center;
+ }
+ .parallax {
+ 
+  background-image: url("../img/leopardo.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.titulo{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  top: 225px;
+  left: 40%;
+  z-index: 1;
+  padding: 5px;
+  border: solid 0.5px peru;
+}
+.informacion{
+ 
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.leopar, .tdleopar, .trleopar {
+  border: 3px solid rgb(130, 130, 130);
+  text-align: left;
+  padding: 20px;
+}
+
+.leopar {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+  border-collapse: collapse;
+}
+.parallax1 {
+ 
+  background-image: url("../img/cocodrilomar.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.coco {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+  border-collapse: collapse;
+}
+.coco, .trcoco, .tdcoco {
+  border: 3px solid rgb(244, 216, 132);
+  text-align: left;
+  padding: 20px;
+}
+.parallax2 {
+ 
+  background-image: url("../img/licapara.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.titulolica{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  top: 225px;
+  left: 45%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 0.5px peru;
+}
+.titulopa{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  top: 225px;
+  left: 43%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 0.5px peru;
+}
+.parallax3 {
+ 
+  background-image: url("../img/pandapara.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.tdleopar:hover{
+  color: whitesmoke;
+  background-color: black;
+}
+.trleopar:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.trcoco:hover, .tdcoco:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+.imad:hover{
+  opacity: 0.7;
+  border-radius: 100%;
+}
+.parallax4 {
+ 
+  background-image: url("../img/camapara.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.parallax5 {
+ 
+  background-image: url("../img/cebrapara.jpg");
+
+
+  min-height: 500px; 
+  
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.tituloce{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  top: 225px;
+  left: 45%;
+  z-index: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 0.5px peru;
+}
+.parallax5:hover {
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: lighten;
+}
+.tituloce:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  
+  border: solid 1.5px rgb(40, 255, 136);
+}
+  .titulo:hover{
+    background-color: rgb(0, 0, 0);
+  color: white;
+  
+  border: solid 1.5px rgb(40, 255, 136);
+  }
+.titulolica:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  
+  border: solid 1.5px rgb(40, 255, 136);
+}
+.titulopa:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  
+  border: solid 1.5px rgb(40, 255, 136);
+}
