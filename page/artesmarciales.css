@@ -227,3 +227,31 @@ ul {
   
   border: solid 1.5px rgb(40, 255, 136);
 }
+.parallaxi {
+ 
+  background-image: url("../img/cebrapara.jpg");
+
+  min-height: 500px; 
+  position: absolute;
+  top: 4px;
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3;
+}
+.parallaxin {
+ 
+  background-image: url("../img/leopardoinfo.jfif");
+
+  min-height: 500px; 
+
+ 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -3;
+}
