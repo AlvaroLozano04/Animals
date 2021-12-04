@@ -245,6 +245,7 @@ ul {
 .parallaxin {
  
   background-image: url("../img/leopardoinfo.jfif");
+  min-height: 500px; 
 
    
 
