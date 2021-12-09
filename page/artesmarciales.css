@@ -162,6 +162,10 @@ ul {
 .parallax4 {
  
   background-image: url("../img/camapara.jpg");
+   
+    
+    
+  min-height: 500px; 
 
   
 
